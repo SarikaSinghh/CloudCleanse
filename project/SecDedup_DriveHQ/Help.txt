@@ -1,0 +1,43 @@
+User
+-------------------------
+Registration
+Login
+
+FileUpload
+------------------------------
+	divide file content into blocks
+	generate hash signatures for each block
+		check weather hash signature exists in the database or not
+		if exists
+			don't upload to cloud
+			send success message
+		else if not exists
+			encrypt block contents with sec key
+			upload encrypted block to cloud
+			store hash signature in database
+
+View Files
+	
+FileDownload
+	
+	if file access date is over
+		we can't dowload
+
+	else if not uploaded user
+		validate key for authentication and decryption
+	else if uploaded user
+		download and decrypt file
+
+delete file
+	if uploaded user
+		delete file
+
+
+Admin
+--------------------------
+LOgin  (username:admin,password:admin)
+
+View Uploaded Files
+View Dowloaded Files
+
+Logout

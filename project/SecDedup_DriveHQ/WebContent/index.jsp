@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%@include file="header.html"%>
+</head>
+<body>
+<%@include file="menu1.html"%>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row" style="align-items:center">
+      <div class="col-md-7 hero-content">
+        <span class="hero-badge"><i class="fa fa-shield" style="margin-right:6px"></i>Secure &bull; Smart &bull; Efficient</span>
+        <h1 class="hero-title">
+          Cloud Cleanse:<br>
+          <span>Intelligent Duplicate</span><br>
+          Data Detection
+        </h1>
+        <p class="hero-desc">
+          Stop wasting cloud storage on duplicate files. Our system automatically detects, flags, and eliminates duplicate data using advanced hashing algorithms — while keeping your files encrypted and secure.
+        </p>
+        <div class="hero-btns">
+          <a href="register.jsp" class="btn-hero-primary"><i class="fa fa-rocket" style="margin-right:8px"></i>Get Started Free</a>
+          <a href="user.jsp" class="btn-hero-outline"><i class="fa fa-sign-in" style="margin-right:8px"></i>User Login</a>
+        </div>
+      </div>
+      <div class="col-md-5 hero-right">
+        <div class="hero-visual">
+          <div class="hero-visual-icon"><i class="fa fa-cloud"></i></div>
+          <p style="color:rgba(255,255,255,0.7);font-size:0.9rem;margin-bottom:20px">Intelligent Cloud Storage</p>
+          <div class="hero-stats-row">
+            <div class="hero-stat-card">
+              <span class="stat-num">70%</span>
+              <span class="stat-label">Storage Saved</span>
+            </div>
+            <div class="hero-stat-card">
+              <span class="stat-num">AES</span>
+              <span class="stat-label">Encryption</span>
+            </div>
+            <div class="hero-stat-card">
+              <span class="stat-num">SHA</span>
+              <span class="stat-label">Dedup Hash</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEATURES ===================== -->
+<section class="features-section section-pad">
+  <div class="container">
+    <div class="text-center mb-60">
+      <span class="section-label"><i class="fa fa-star" style="margin-right:6px"></i>Core Features</span>
+      <h2 class="section-title">Everything You Need for <span>Secure Cloud Storage</span></h2>
+      <div class="divider"></div>
+      <p class="section-desc" style="margin-top:16px">Powerful features designed to protect your files, save space, and give you full control over your cloud data.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6" style="margin-bottom:24px">
+        <div class="feature-card">
+          <div class="feature-icon icon-blue"><i class="fa fa-lock"></i></div>
+          <h4>AES Encryption</h4>
+          <p>Every file is encrypted using industry-standard AES encryption before being uploaded to cloud storage. Your data stays private and secure at all times.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:24px">
+        <div class="feature-card">
+          <div class="feature-icon icon-cyan"><i class="fa fa-copy"></i></div>
+          <h4>Duplicate Detection</h4>
+          <p>Our intelligent SHA-based hashing automatically identifies duplicate files across the system, eliminating redundant data and saving valuable storage space.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:24px">
+        <div class="feature-card">
+          <div class="feature-icon icon-green"><i class="fa fa-cloud-upload"></i></div>
+          <h4>Secure Upload</h4>
+          <p>Upload files to cloud storage (DriveHQ) effortlessly via FTP. Set expiry dates for access control so only authorized users can download within the allowed window.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:24px">
+        <div class="feature-card">
+          <div class="feature-icon icon-orange"><i class="fa fa-key"></i></div>
+          <h4>Access Key Control</h4>
+          <p>Share files securely using unique access keys. Only users with the correct key can download shared files, giving you complete control over who accesses what.</p>
+        </div>
+      </div>
+    </div>
+    <!-- second row -->
+    <div class="row" style="margin-top:0">
+      <div class="col-md-3 col-sm-6" style="margin-bottom:24px">
+        <div class="feature-card">
+          <div class="feature-icon icon-cyan"><i class="fa fa-clock-o"></i></div>
+          <h4>Time-Based Access</h4>
+          <p>Set an expiry date on each file you upload. After the access date passes, the download link automatically expires, protecting your data from unauthorized access.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:24px">
+        <div class="feature-card">
+          <div class="feature-icon icon-green"><i class="fa fa-envelope"></i></div>
+          <h4>Email Notifications</h4>
+          <p>Receive email confirmations for account registration and important activities, keeping you informed about your cloud storage operations at all times.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:24px">
+        <div class="feature-card">
+          <div class="feature-icon icon-blue"><i class="fa fa-user-secret"></i></div>
+          <h4>Admin Dashboard</h4>
+          <p>Administrators get a full overview of all uploads and downloads across the system, enabling monitoring and management of the entire file storage ecosystem.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:24px">
+        <div class="feature-card">
+          <div class="feature-icon icon-orange"><i class="fa fa-database"></i></div>
+          <h4>Storage Optimization</h4>
+          <p>Duplicate file blocks are stored only once regardless of how many users upload the same file, dramatically reducing cloud storage consumption and costs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="how-section section-pad">
+  <div class="container">
+    <div class="text-center mb-60">
+      <span class="section-label"><i class="fa fa-list-ol" style="margin-right:6px"></i>How It Works</span>
+      <h2 class="section-title">Simple Steps to <span>Smart Cloud Storage</span></h2>
+      <div class="divider"></div>
+      <p class="section-desc" style="margin-top:16px">Getting started is easy. Follow these steps to securely manage your files in the cloud.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6" style="margin-bottom:30px">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h5>Create Account</h5>
+          <p>Register with your name, email and mobile number. You'll receive a confirmation email to verify your account instantly.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:30px">
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h5>Upload Your Files</h5>
+          <p>Select any file and set an access expiry date. Our system encrypts it with AES and checks for duplicates automatically before uploading.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:30px">
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h5>Share Securely</h5>
+          <p>Files you own can be shared with others using a unique access key. Recipients must enter the key to download — ensuring only authorized access.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:30px">
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <h5>Download Anytime</h5>
+          <p>Access your files anytime before the expiry date. Expired files are automatically locked, keeping your storage organized and secure.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STATS ===================== -->
+<section class="stats-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-3 col-sm-6" style="margin-bottom:30px">
+        <div class="stat-box">
+          <span class="num">70<span class="unit">%</span></span>
+          <span class="lbl">Storage Space Saved</span>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:30px">
+        <div class="stat-box">
+          <span class="num">256<span class="unit">-bit</span></span>
+          <span class="lbl">AES Encryption</span>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:30px">
+        <div class="stat-box">
+          <span class="num">SHA<span class="unit">-1</span></span>
+          <span class="lbl">Deduplication Hash</span>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6" style="margin-bottom:30px">
+        <div class="stat-box">
+          <span class="num">100<span class="unit">%</span></span>
+          <span class="lbl">Secure File Transfer</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="section-pad" style="background:#fff">
+  <div class="container text-center">
+    <span class="section-label"><i class="fa fa-bolt" style="margin-right:6px"></i>Get Started Today</span>
+    <h2 class="section-title" style="margin-top:10px">Ready to Cleanse Your Cloud Storage?</h2>
+    <div class="divider" style="margin-bottom:20px"></div>
+    <p class="section-desc" style="margin-bottom:32px">Join now and experience intelligent deduplication, encrypted file storage, and secure sharing — all in one platform.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+      <a href="register.jsp" class="btn-hero-primary" style="display:inline-block"><i class="fa fa-user-plus" style="margin-right:8px"></i>Create Free Account</a>
+      <a href="user.jsp" class="btn-hero-outline" style="display:inline-block;color:#1d4ed8 !important;border-color:#1d4ed8"><i class="fa fa-sign-in" style="margin-right:8px"></i>Sign In</a>
+    </div>
+  </div>
+</section>
+
+<%@include file="footer.html"%>
+</body>
+</html>
